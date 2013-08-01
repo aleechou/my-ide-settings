@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<root>
+  <item>
+    <name>Map Right Command to COMMAND_L+Left</name>
+    <identifier>private.map_rgt_cmd_to_cmdr_left</identifier>
+    <autogen>--KeyToKey-- KeyCode::COMMAND_R, KeyCode::CURSOR_LEFT, ModifierFlag::COMMAND_L</autogen>
+  </item>
+
+  <item>
+    <name>Map Right Command to Home</name>
+    <identifier>private.map_rgt_cmd_to_home</identifier>
+    <autogen>--KeyToKey-- KeyCode::COMMAND_R, KeyCode::HOME</autogen>
+  </item>
+
+  <item>
+    <name>Map Right Option to COMMAND_L+Right</name>
+    <identifier>private.map_rgt_opt_to_cmdl_right</identifier>
+    <autogen>--KeyToKey-- KeyCode::OPTION_R, KeyCode::CURSOR_RIGHT, ModifierFlag::COMMAND_L</autogen>
+  </item>
+
+  <item>
+    <name>Map Right Command to End</name>
+    <identifier>private.map_rgt_cmd_to_end</identifier>
+    <autogen>--KeyToKey-- KeyCode::OPTION_R, KeyCode::END</autogen>
+  </item>
+  
+  <item>
+    <name>Map Option_L to Cmd_L (only in emacs)</name>
+    <identifier>private.map_lft_opt_to_lft_cmd</identifier>
+    <only>EMACS</only>
+    <autogen>--KeyToKey-- KeyCode::OPTION_L, KeyCode::COMMAND_L</autogen>
+  </item>
+  
+</root>
